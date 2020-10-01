@@ -18,12 +18,12 @@ class Particle {
 
         push();
         translate(pos.x, pos.y);
-        rotate(angle);
-        //imageMode(CENTER);
+        
+        
         
         fill(this.color)
         ellipseMode(RADIUS);
-        ellipse(0, 0, this.r,this.r);
+        ellipse(0, 0, this.r);
         pop();
     }
 
